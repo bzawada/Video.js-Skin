@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
-        <title>Video.js | custom skin</title>
+        <title>Video.js | skin</title>
         <link href="https://vjs.zencdn.net/7.3.0/video-js.css" rel="stylesheet">
         <link href="css/videojs-skin.css" rel="stylesheet">
     </head>
     <body>
-
         <video controls id="video-js" class="video-js">
                 <source src="video.mp4" type="video/mp4">
                 <track kind="chapters" src="chapters.vtt" srclang="en" label="" default>
         </video>
+
         <script src="https://vjs.zencdn.net/7.3.0/video.js"></script>
         <script src="js/videojs-skin.js"></script>
-        
         <script>
         var player = videojs('video-js', {
             controls: true,
