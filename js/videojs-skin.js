@@ -9,3 +9,4 @@ document.addEventListener("DOMContentLoaded", function() {
 		document.getElementsByClassName('vjs-fullscreen-control')[0].click();
 	}); 
 });
+    

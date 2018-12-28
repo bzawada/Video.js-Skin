@@ -26,7 +26,7 @@ gulp.task('sass', () => {
     .pipe(autoprefixer({
 	  browsers: ['> 1%', 'last 2 versions', 'IE 10'],
       cascade: false
-    }))
+    })) 
     .pipe(gulp.dest('css/'));
 });
 
