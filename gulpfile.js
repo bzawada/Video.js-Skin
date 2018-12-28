@@ -11,7 +11,7 @@ const onError = (err) => {
 
 gulp.task('watch', ['sass', 'js-uglify'], () => {
   gulp.watch('scss/video-player.scss', ['sass']);
-  gulp.watch('js/videojs-custom-skin.js', ['js-uglify']);
+  gulp.watch('js/videojs-skin.js', ['js-uglify']);
 });
 
 gulp.task('sass', () => {
@@ -22,7 +22,7 @@ gulp.task('sass', () => {
     .pipe(sass({
         outputStyle: 'compressed'
     })) 
-    .pipe(rename('videojs-custom-skin.css'))
+    .pipe(rename('videojs-skin.css'))
     .pipe(autoprefixer({
 	  browsers: ['> 1%', 'last 2 versions', 'IE 10'],
       cascade: false
@@ -31,12 +31,12 @@ gulp.task('sass', () => {
 });
 
 gulp.task('js-uglify', () => {
-    return gulp.src('js/videojs-custom-skin.js')
+    return gulp.src('js/videojs-skin.js')
     .pipe(plumber({
       errorHandler: onError
     }))
     .pipe(uglify())
-    .pipe(rename('videojs-custom-skin.min.js'))
+    .pipe(rename('videojs-skin.min.js'))
     .pipe(gulp.dest('js/'));
 });
 

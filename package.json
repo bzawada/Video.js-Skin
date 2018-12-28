@@ -1,7 +1,7 @@
 {
-  "name": "Videojs-custom-skin",
+  "name": "Videojs-skin",
   "version": "1.0.0",
-  "main": "videojs-custom-skin.js",
+  "main": "videojs-skin.js",
   "author": "Bartłomiej Zawada",
   "license": "MIT",
   "devDependencies": {
