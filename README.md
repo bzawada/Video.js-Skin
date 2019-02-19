@@ -1,6 +1,9 @@
 # Video.js - Skin
 Custom skin for **Video.js** player
 
+## Demo
+https://bzawada.github.io/Video.js-Skin/
+
 ## How to use it
 You can find example implementation in the **index.html** file.
 To use it, you need to attach **videojs-skin.css** and **videojs-skin.js** files to your site.
@@ -15,5 +18,3 @@ To use it, you need to attach **videojs-skin.css** and **videojs-skin.js** files
 ![screenshot](https://raw.githubusercontent.com/CodeEmperor/Videojs-Skin/master/videojs-skin.png)
 ![screenshot 2](https://raw.githubusercontent.com/CodeEmperor/Videojs-Skin/master/videojs-skin-2.png)
 
-## Demo
-https://bzawada.github.io/Video.js-Skin/
