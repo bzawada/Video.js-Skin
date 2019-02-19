@@ -16,4 +16,4 @@ To use it, you need to attach **videojs-skin.css** and **videojs-skin.js** files
 ![screenshot 2](https://raw.githubusercontent.com/CodeEmperor/Videojs-Skin/master/videojs-skin-2.png)
 
 ## Demo
-https://codeemperor.github.io/Video.js-Skin/
+https://bzawada.github.io/Video.js-Skin/
